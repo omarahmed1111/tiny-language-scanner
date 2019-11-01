@@ -1,0 +1,67 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.IO;
+namespace scanner
+{
+    public partial class Form1 : Form
+    {
+        int out_no;
+        scanner1 sc;
+        StreamWriter writer;
+        public Form1()
+        {
+            InitializeComponent();
+            out_no = 1;
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string f = textBox1.Text;
+            try
+            {
+                string output = "output" + out_no.ToString() + ".txt";
+                writer = new StreamWriter(output);
+                string file_text = File.ReadAllText(f+".txt");
+                sc = new scanner1(file_text,writer);
+                int done = sc.scan();
+                if (done == 0)
+                {
+                    label2.Text = "success";
+                    label2.ForeColor = Color.Green;
+                    out_no++;
+                }
+                else
+                {
+                    label2.Text = "syntax error";
+                    label2.ForeColor = Color.Red;
+                }
+                writer.Close();
+               
+
+            }
+            catch
+            {
+                label2.Text = "file does not exist";
+                label2.ForeColor = Color.Red;
+                writer.Close();
+            }
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
+}

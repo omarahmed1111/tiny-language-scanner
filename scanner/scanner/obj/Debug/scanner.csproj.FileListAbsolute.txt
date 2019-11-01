@@ -1,0 +1,9 @@
+D:\college\scanner\scanner\bin\Debug\scanner.exe.config
+D:\college\scanner\scanner\obj\Debug\scanner.csprojResolveAssemblyReference.cache
+D:\college\scanner\scanner\obj\Debug\scanner.Form1.resources
+D:\college\scanner\scanner\obj\Debug\scanner.Properties.Resources.resources
+D:\college\scanner\scanner\obj\Debug\scanner.csproj.GenerateResource.Cache
+D:\college\scanner\scanner\bin\Debug\scanner.exe
+D:\college\scanner\scanner\bin\Debug\scanner.pdb
+D:\college\scanner\scanner\obj\Debug\scanner.exe
+D:\college\scanner\scanner\obj\Debug\scanner.pdb
