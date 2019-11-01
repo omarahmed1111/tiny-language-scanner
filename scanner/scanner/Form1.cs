@@ -31,7 +31,7 @@ namespace scanner
             string f = textBox1.Text;
             try
             {
-                string output = "output" + out_no.ToString() + ".txt";
+                string output = f + "_output.txt";
                 writer = new StreamWriter(output);
                 string file_text = File.ReadAllText(f+".txt");
                 sc = new scanner1(file_text,writer);
