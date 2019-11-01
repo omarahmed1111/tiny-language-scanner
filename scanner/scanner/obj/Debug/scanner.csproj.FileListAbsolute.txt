@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\college\scanner\scanner\bin\Debug\scanner.exe.config
 D:\college\scanner\scanner\obj\Debug\scanner.csprojResolveAssemblyReference.cache
 D:\college\scanner\scanner\obj\Debug\scanner.Form1.resources
@@ -35,3 +36,5 @@ D:\tiny-language-scanner-\scanner\scanner\obj\Debug\scanner.csproj.GenerateResou
 E:\github\tiny-language-scanner-\scanner\scanner\obj\Debug\scanner.InputOutputForm.resources
 >>>>>>> 7c87fae73d20b574db50e93c7b03c89c12a75f10
 D:\tiny-language-scanner-\scanner\scanner\obj\Debug\scanner.InputOutputForm.resources
+=======
+>>>>>>> f6af757f2e1a267658cc996e5fa7b763a0b6e903
