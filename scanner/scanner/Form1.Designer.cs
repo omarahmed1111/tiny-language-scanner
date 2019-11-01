@@ -32,6 +32,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.lbl_projectName = new System.Windows.Forms.Label();
+            this.btn_back = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -76,12 +77,28 @@
             this.lbl_projectName.Text = "Type Your File Name : ";
             this.lbl_projectName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // btn_back
+            // 
+            this.btn_back.BackColor = System.Drawing.Color.Transparent;
+            this.btn_back.FlatAppearance.BorderSize = 0;
+            this.btn_back.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_back.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_back.ForeColor = System.Drawing.Color.LightSkyBlue;
+            this.btn_back.Location = new System.Drawing.Point(666, 375);
+            this.btn_back.Name = "btn_back";
+            this.btn_back.Size = new System.Drawing.Size(85, 38);
+            this.btn_back.TabIndex = 56;
+            this.btn_back.Text = "Back";
+            this.btn_back.UseVisualStyleBackColor = false;
+            this.btn_back.Click += new System.EventHandler(this.Btn_back_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::scanner.Properties.Resources.BG_Blur;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn_back);
             this.Controls.Add(this.lbl_projectName);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button1);
@@ -100,6 +117,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lbl_projectName;
+        private System.Windows.Forms.Button btn_back;
     }
 }
 

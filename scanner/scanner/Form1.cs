@@ -63,5 +63,12 @@ namespace scanner
         {
 
         }
+
+        private void Btn_back_Click(object sender, EventArgs e)
+        {
+            SelectMode form = new SelectMode();
+            form.Show();
+            Hide();
+        }
     }
 }
