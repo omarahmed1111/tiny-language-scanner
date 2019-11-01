@@ -7,3 +7,15 @@ D:\college\scanner\scanner\bin\Debug\scanner.exe
 D:\college\scanner\scanner\bin\Debug\scanner.pdb
 D:\college\scanner\scanner\obj\Debug\scanner.exe
 D:\college\scanner\scanner\obj\Debug\scanner.pdb
+E:\github\tiny-language-scanner-\scanner\scanner\bin\Debug\scanner.exe.config
+E:\github\tiny-language-scanner-\scanner\scanner\bin\Debug\scanner.exe
+E:\github\tiny-language-scanner-\scanner\scanner\bin\Debug\scanner.pdb
+E:\github\tiny-language-scanner-\scanner\scanner\obj\Debug\scanner.csprojAssemblyReference.cache
+E:\github\tiny-language-scanner-\scanner\scanner\obj\Debug\scanner.Form1.resources
+E:\github\tiny-language-scanner-\scanner\scanner\obj\Debug\scanner.Properties.Resources.resources
+E:\github\tiny-language-scanner-\scanner\scanner\obj\Debug\scanner.csproj.GenerateResource.cache
+E:\github\tiny-language-scanner-\scanner\scanner\obj\Debug\scanner.csproj.CoreCompileInputs.cache
+E:\github\tiny-language-scanner-\scanner\scanner\obj\Debug\scanner.exe
+E:\github\tiny-language-scanner-\scanner\scanner\obj\Debug\scanner.pdb
+E:\github\tiny-language-scanner-\scanner\scanner\obj\Debug\scanner.WelcomeForm.resources
+E:\github\tiny-language-scanner-\scanner\scanner\obj\Debug\scanner.SelectMode.resources
