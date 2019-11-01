@@ -23,5 +23,12 @@ namespace scanner
             form.Show();
             Hide();
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            InputOutputForm form = new InputOutputForm();
+            form.Show();
+            Hide();
+        }
     }
 }
