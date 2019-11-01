@@ -19,3 +19,4 @@ E:\github\tiny-language-scanner-\scanner\scanner\obj\Debug\scanner.exe
 E:\github\tiny-language-scanner-\scanner\scanner\obj\Debug\scanner.pdb
 E:\github\tiny-language-scanner-\scanner\scanner\obj\Debug\scanner.WelcomeForm.resources
 E:\github\tiny-language-scanner-\scanner\scanner\obj\Debug\scanner.SelectMode.resources
+E:\github\tiny-language-scanner-\scanner\scanner\obj\Debug\scanner.InputOutputForm.resources
