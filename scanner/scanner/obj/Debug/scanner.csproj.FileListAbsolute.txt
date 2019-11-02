@@ -20,7 +20,6 @@ E:\github\tiny-language-scanner-\scanner\scanner\obj\Debug\scanner.exe
 E:\github\tiny-language-scanner-\scanner\scanner\obj\Debug\scanner.pdb
 E:\github\tiny-language-scanner-\scanner\scanner\obj\Debug\scanner.WelcomeForm.resources
 E:\github\tiny-language-scanner-\scanner\scanner\obj\Debug\scanner.SelectMode.resources
-<<<<<<< HEAD
 D:\tiny-language-scanner-\scanner\scanner\bin\Debug\scanner.exe.config
 D:\tiny-language-scanner-\scanner\scanner\obj\Debug\scanner.exe
 D:\tiny-language-scanner-\scanner\scanner\obj\Debug\scanner.pdb
@@ -36,5 +35,5 @@ D:\tiny-language-scanner-\scanner\scanner\obj\Debug\scanner.csproj.GenerateResou
 E:\github\tiny-language-scanner-\scanner\scanner\obj\Debug\scanner.InputOutputForm.resources
 >>>>>>> 7c87fae73d20b574db50e93c7b03c89c12a75f10
 D:\tiny-language-scanner-\scanner\scanner\obj\Debug\scanner.InputOutputForm.resources
-=======
 >>>>>>> f6af757f2e1a267658cc996e5fa7b763a0b6e903
+D:\tiny-language-scanner-\scanner\scanner\obj\Debug\scanner.Output.resources

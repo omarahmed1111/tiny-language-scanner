@@ -17,7 +17,7 @@ namespace scanner
         StreamWriter writer;
         public scanner1(string file_text,StreamWriter write)
         {
-            text  = file_text;
+            text  = file_text + " ";
             cur_state = 0;
             cur_text = "";
             writer = write;
@@ -83,21 +83,21 @@ namespace scanner
                     else if(cur == '<')
                     {
                         cur_text += cur;
-                        writer.WriteLine("< , Less than");
+                        writer.WriteLine("< , Less_than");
                         cur_state = 0;
                         cur_text = "";
                     }
                     else if(cur == '(')
                     {
                         cur_text += cur;
-                        writer.WriteLine("( , Open parenthes");
+                        writer.WriteLine("( , Open_parenthes");
                         cur_state = 0;
                         cur_text = "";
                     }
                     else if (cur == ')')
                     {
                         cur_text += cur;
-                        writer.WriteLine(") , Close parenthes");
+                        writer.WriteLine(") , Close_parenthes");
                         cur_state = 0;
                         cur_text = "";
                     }
