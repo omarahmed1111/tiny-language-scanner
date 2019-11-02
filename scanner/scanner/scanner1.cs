@@ -28,6 +28,7 @@ namespace scanner
             for(int i = 0; i< text.Length; i++)
             {
                 char cur = text[i];
+                if (i == text.Length - 1 && cur_state == 1) return 1;
                 if (cur_state == 0)
                 {
                     if(cur==' '||cur=='\n'||cur=='\t'||cur=='\r') { }
@@ -130,9 +131,10 @@ namespace scanner
                 {
                     if (cur >= '0' && cur <= '9')
                     {
-                        cur_text += cur; 
+                        cur_text += cur;
                         cur_state = 2;
                     }
+                    else if ((cur >= 'a' && cur <= 'z') || (cur >= 'A' && cur <= 'Z')) return 1;
                     else
                     {
                         writer.WriteLine(cur_text + " , Number");
@@ -143,11 +145,12 @@ namespace scanner
                 }
                 else if (cur_state == 3)
                 {
-                    if((cur >= 'a' && cur <= 'z') || (cur >= 'A' && cur <= 'Z')||cur=='_'||(cur >= '0' && cur <= '9'))
+                    if ((cur >= 'a' && cur <= 'z') || (cur >= 'A' && cur <= 'Z') || cur == '_')
                     {
                         cur_text += cur;
                         cur_state = 3;
                     }
+                    else if (cur >= '0' && cur <= '9') return 1;
                     else
                     {
                         //done
@@ -161,32 +164,32 @@ namespace scanner
                             writer.WriteLine(cur_text + " , ELSE");
                             cur_text = "";
                         }
-                        else if(cur_text == "then")
+                        else if (cur_text == "then")
                         {
                             writer.WriteLine(cur_text + " , THEN");
                             cur_text = "";
                         }
-                        else if(cur_text == "end")
+                        else if (cur_text == "end")
                         {
                             writer.WriteLine(cur_text + " , END");
                             cur_text = "";
                         }
-                        else if(cur_text == "repeat")
+                        else if (cur_text == "repeat")
                         {
                             writer.WriteLine(cur_text + " , REPEAT");
                             cur_text = "";
                         }
-                        else if(cur_text == "until")
+                        else if (cur_text == "until")
                         {
                             writer.WriteLine(cur_text + " , UNTIL");
                             cur_text = "";
                         }
-                        else if(cur_text == "read")
+                        else if (cur_text == "read")
                         {
                             writer.WriteLine(cur_text + " , READ");
                             cur_text = "";
                         }
-                        else if(cur_text == "write")
+                        else if (cur_text == "write")
                         {
                             writer.WriteLine(cur_text + " , WRITE");
                             cur_text = "";
