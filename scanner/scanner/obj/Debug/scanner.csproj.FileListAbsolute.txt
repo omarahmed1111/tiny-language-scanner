@@ -37,3 +37,4 @@ E:\github\tiny-language-scanner-\scanner\scanner\obj\Debug\scanner.InputOutputFo
 D:\tiny-language-scanner-\scanner\scanner\obj\Debug\scanner.InputOutputForm.resources
 >>>>>>> f6af757f2e1a267658cc996e5fa7b763a0b6e903
 D:\tiny-language-scanner-\scanner\scanner\obj\Debug\scanner.Output.resources
+E:\github\tiny-language-scanner-\scanner\scanner\obj\Debug\scanner.Output.resources
